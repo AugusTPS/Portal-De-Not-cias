@@ -17,8 +17,7 @@
     }
 
     #secondary {
-        padding-block: pic
-    ;
-    border: solid 1px var(--stroke-color)
+        padding-block: 14px;
+        border: solid 1px var(--stroke-color);
     }
 }
