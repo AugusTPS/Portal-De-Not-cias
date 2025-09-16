@@ -22,7 +22,7 @@
 }
 
 body {
-    background-color: var(--bg-color);
+    background: var(--bg-color);
     color: var(--text-color-primary);
     font: var(--text);
 }
@@ -40,18 +40,21 @@ h1, h2, h3 {
     font: inherit;
 }
 
+img {
+    max-width: 100%;
+}
+
 .container {
     max-width: 1280px;
     padding-inline: 32px;
     margin-inline: auto;
 }
 
-/* utility-first */
-
-.grid {
-    display: flex;
-}
-
-.grid.flow.col {
-    grid-auto-flow: column;
+.content-tag {
+    display: inline-block;
+    background-color: var(--brand-color-dark);
+    border-radius: 4px;
+    font: 500 10px/1.2 var(--font-family);
+    text-transform: uppercase;
+    padding: 4px 8px;
 }

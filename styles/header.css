@@ -21,6 +21,6 @@
 #secondary {
         padding-block: 14px;
         border: solid 1px var(--stroke-color);
-        margin-inline: none;
+        border-inline: none;
         justify-content: space-between;
     }
