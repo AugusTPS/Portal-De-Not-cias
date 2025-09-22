@@ -11,8 +11,13 @@ feature {
         height: 100%;
         object-fit: cover;
     }
-    
-    figcaption {
+
+    .card{
+        position: relative;
+        border-radius: 4px;
+        overflow: hidden;
+
+        figcaption {
         position: absolute;
         bottom: 0;
         padding: 24px;
@@ -20,13 +25,11 @@ feature {
         h2{
             margin-top: 8px;;
         }
+
+        &:has(.text-lg){
+            padding: 12px;
+        }
     }
-
-    .card{
-        position: relative;
-        border-radius: 4px;
-        overflow: hidden;
-
         &:before {
             content: "";
             position: absolute;
